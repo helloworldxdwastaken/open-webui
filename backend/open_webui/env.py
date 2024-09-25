@@ -99,13 +99,13 @@ for source in log_sources:
 log.setLevel(SRC_LOG_LEVELS["CONFIG"])
 
 
-WEBUI_NAME = os.environ.get("WEBUI_NAME", "Open WebUI")
-if WEBUI_NAME != "Open WebUI":
-    WEBUI_NAME += " (Open WebUI)"
+WEBUI_NAME = os.environ.get("WEBUI_NAME", "EVA IA")
+if WEBUI_NAME != "EVA AI":
+    WEBUI_NAME += " (EVA AI)"
 
 WEBUI_URL = os.environ.get("WEBUI_URL", "http://localhost:3000")
 
-WEBUI_FAVICON_URL = "https://openwebui.com/favicon.png"
+WEBUI_FAVICON_URL = "https://media.discordapp.net/attachments/1131483993473294338/1286660807907868793/favicon.png?ex=66f4a681&is=66f35501&hm=51f53341860e2a4c7ae24ac4a49097cfdd0b94f22d7c231d68d8c6aabe7c8fa8&=&format=webp&quality=lossless&width=625&height=625"
 
 
 ####################################
